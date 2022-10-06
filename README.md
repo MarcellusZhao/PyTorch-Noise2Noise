@@ -1,15 +1,6 @@
 # EE-559 Project: Learning Image Restoration without Clean Data
 ****The README outlines the requirements, project structure and the way to reproduce our final results. For more details, please check our report.****
 
-Table of Contents
----
-
-* [Introduction](#introduction)
-* [Requirements](#requirements)
-* [Project Structure](#projectstructure)
-* [How to run](#howtorun)
-* [Results](#results)
-
 Introduction
 ---
 
@@ -23,7 +14,11 @@ networks without PyTorch's autograd.
 Requirements
 ---
 
-
+* Python 3.7
+* numpy 1.21.4
+* PyTorch 1.10.0+cu102
+* collection
+* pathlib
 
 Project Structure
 ---
