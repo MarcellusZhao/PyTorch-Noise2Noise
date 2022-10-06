@@ -130,3 +130,5 @@ dmypy.json
 
 # Data
 codes/data/
+
+_pycache/

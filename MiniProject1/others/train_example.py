@@ -12,25 +12,25 @@ from model import Model
 from config import config
 
 
-# config = {
-#     # general.
-#     "seed": 1,
-#     "log_dir": "./logs",
-#     "device": "cuda:0",  # e.g., cuda:0 if having gpu resources.
-#     # data.
-#     "data_path": "./../../../data",
-#     # model.
-#     "resume": True,
-#     # Training.
-#     "loss": "l2",  # select among ["l1", "l2"].
-#     # "lr": 0.001,
-#     "lr": 0.0005,
-#     "optimizer": "AdamW",
-#     "betas": [0.9, 0.99],
-#     "eps": 1e-8,
-#     "batch_size": 4,
-#     "epoch": 2,
-# }
+config = {
+    # general.
+    "seed": 1,
+    "log_dir": "./logs",
+    "device": "cuda:0",  # e.g., cuda:0 if having gpu resources.
+    # data.
+    "data_path": "./../../../data",
+    # model.
+    "resume": False,
+    # Training.
+    "loss": "l2",  # select among ["l1", "l2"].
+    # "lr": 0.001,
+    "lr": 0.0005,
+    "optimizer": "AdamW",
+    "betas": [0.9, 0.99],
+    "eps": 1e-8,
+    "batch_size": 4,
+    "epoch": 2,
+}
 
 def main(config):
 
