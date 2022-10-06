@@ -6,8 +6,8 @@ Table of Contents
 
 * [Introduction](#introduction)
 * [Requirements](#requirements)
-* [Project Structure](#project structure)
-* [How to run](#how to run)
+* [Project Structure](#projectstructure)
+* [How to run](#howtorun)
 * [Results](#results)
 
 Introduction
@@ -87,5 +87,5 @@ Results
 ---
 
 <p align="center">
-  <img src="Results/group.png" height="370">
+  <img src="results/group.png" height="370">
 </p>
